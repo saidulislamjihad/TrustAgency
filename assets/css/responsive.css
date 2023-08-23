@@ -1,0 +1,141 @@
+@media screen and ( max-width: 991px ){
+	.home-sec-left-side-wrap .sub-title {
+	    font-size: 16px;
+	}
+	.home-sec-left-side-wrap .title {
+	    font-size: 42px;
+	    margin-bottom: 15px;
+	}
+	.home-sec-left-side-wrap .description {
+	    line-height: 24px;
+	}
+	.home-sec-left-user-outer .user-content .user-name {
+		font-size: 16px;
+	}
+	.home-sec-left-user-outer .user-content .uc-left {
+	    margin-right: 10px;
+	    padding-right: 10px;
+	}
+	.home-sec-left-user-outer .user-image {
+	    margin-right: 10px;
+	}
+	.home-sec-left-user-outer .user-content .user-rank {
+	    font-size: 12px;
+	}
+	.home-sec-left-user-outer .user-content .learn-more-link {
+	    padding: 5px 10px;
+	}
+	.about-sec-right .title {
+	    font-size: 35px;
+	}
+	.expart-team-item-outer .sub-title {
+	}
+	.nav-pills .nav-link {
+	    margin-bottom: 15px;
+	}
+	.service-item-outer {
+	    margin-bottom: 40px;
+	}
+	.pricing-item-outer {
+	    margin-bottom: 100px;
+	}
+	.contact-sec-left {
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #0013ff;
+	}
+	.footer-item-outer .footer-text {
+	    margin-bottom: 20px;
+	}
+	.footer-item-outer {
+	    margin-bottom: 25px;
+	}
+	.pricing-con-list-item {
+	    font-size: 18px;
+	}
+	.pricing-item-title {
+	    font-size: 25px;
+	}
+}
+
+@media screen and ( max-width: 767px ){
+	.nav-items-wrapper .nav-list {
+	    flex-direction: column;
+	    position: fixed;
+	    right: -100%;
+	    top: 70px;
+	    padding-top: 30px;
+	    display: block;
+	    width: 300px;
+	    height: 100vh;
+	    background: #000;
+	    align-items: flex-start;
+	    padding-left: 3%;
+	    z-index: 99;
+	    overflow: hidden;
+	    transition: all .5s ease;
+	    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	}
+
+	.nav-list .nav-item {
+	    height: auto;
+	}
+
+	.nav-toggle-btn {
+	    display: flex;
+	}
+
+	.nav-items-wrapper {
+		justify-content: space-between;
+	}
+	.home-sec-left-side-wrap {
+	    margin-bottom: 20px;
+	}
+
+	.about-sec-left {
+	    margin-bottom: 25px;
+	}
+
+	.about-sec-right .title:before {
+	    content: '';
+	    background: transparent;
+	}
+
+	.expart-team-item-outer {
+	    margin-bottom: 20px;
+	}
+
+	.service-sec-title-outer .title {
+	    font-size: 35px;
+	}
+
+	.service-item-outer .title {
+	    font-size: 18px;
+	    margin-bottom: 5px;
+	}
+
+	.portfolio-sec-title-outer .title {
+	    font-size: 35px;
+	}
+
+	.portfolio-sec-title-outer .sub-title {
+	    font-size: 18px;
+	}
+
+	.portfolio-sec-title-outer .sub-title:after {
+	    width: 70px;
+	}
+
+	.pricing-sec-title-outer .title {
+	    font-size: 35px;
+	}
+	.menu-visible .nav-list {
+	    right: 0;
+	}
+}
+
+@media screen and ( max-width: 576px ){
+	.pricing-item-icon {
+	    display: none;
+	}
+}
